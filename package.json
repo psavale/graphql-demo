@@ -1,0 +1,33 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "json server set for Api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node json-server --watch src/../tests/__mocks__/db.json --routes src/../tests/__mocks__/routes.json --port 3004 --middlewares src/../tests/__mocks__/middleware.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psavale/jsonserver.git"
+  },
+  "author": "Parameshwar Savale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psavale/jsonserver/issues"
+  },
+  "homepage": "https://github.com/psavale/jsonserver#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "json-server": "^0.17.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.7"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {}
+}

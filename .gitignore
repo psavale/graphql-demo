@@ -1,0 +1,5 @@
+# Dependency directories
+node_modules
+
+# db.json for JSON-Server
+tests/__mocks__/db.json
